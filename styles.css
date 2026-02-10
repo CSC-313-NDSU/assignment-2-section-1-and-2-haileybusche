@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+footer {
+    margin-top: 50px;
+}
